@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Student_Filament", "Student_Filament.phpproj", "{2F047447-AB68-402C-8093-0572E890DE21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F047447-AB68-402C-8093-0572E890DE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F047447-AB68-402C-8093-0572E890DE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F047447-AB68-402C-8093-0572E890DE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F047447-AB68-402C-8093-0572E890DE21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {034EA2DC-981A-4DED-B07C-C44ADC24581E}
+	EndGlobalSection
+EndGlobal
