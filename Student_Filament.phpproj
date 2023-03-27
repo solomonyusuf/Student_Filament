@@ -63,6 +63,18 @@
   <ItemGroup>
     <Compile Include="app\Console\Kernel.php" />
     <Compile Include="app\Exceptions\Handler.php" />
+    <Compile Include="app\Filament\Resources\ResultResource.php" />
+    <Compile Include="app\Filament\Resources\ResultResource\Pages\CreateResult.php" />
+    <Compile Include="app\Filament\Resources\ResultResource\Pages\EditResult.php" />
+    <Compile Include="app\Filament\Resources\ResultResource\Pages\ListResults.php" />
+    <Compile Include="app\Filament\Resources\StudentResource.php" />
+    <Compile Include="app\Filament\Resources\StudentResource\Pages\CreateStudent.php" />
+    <Compile Include="app\Filament\Resources\StudentResource\Pages\EditStudent.php" />
+    <Compile Include="app\Filament\Resources\StudentResource\Pages\ListStudents.php" />
+    <Compile Include="app\Filament\Resources\SubjectResource.php" />
+    <Compile Include="app\Filament\Resources\SubjectResource\Pages\CreateSubject.php" />
+    <Compile Include="app\Filament\Resources\SubjectResource\Pages\EditSubject.php" />
+    <Compile Include="app\Filament\Resources\SubjectResource\Pages\ListSubjects.php" />
     <Compile Include="app\Http\Controllers\Controller.php" />
     <Compile Include="app\Http\Middleware\Authenticate.php" />
     <Compile Include="app\Http\Middleware\EncryptCookies.php" />
@@ -8468,6 +8480,14 @@
   <ItemGroup>
     <Folder Include="app\Console" />
     <Folder Include="app\Exceptions" />
+    <Folder Include="app\Filament\" />
+    <Folder Include="app\Filament\Resources\" />
+    <Folder Include="app\Filament\Resources\ResultResource\" />
+    <Folder Include="app\Filament\Resources\ResultResource\Pages\" />
+    <Folder Include="app\Filament\Resources\StudentResource\" />
+    <Folder Include="app\Filament\Resources\StudentResource\Pages\" />
+    <Folder Include="app\Filament\Resources\SubjectResource\" />
+    <Folder Include="app\Filament\Resources\SubjectResource\Pages\" />
     <Folder Include="app\Http\Controllers" />
     <Folder Include="app\Http\Middleware" />
     <Folder Include="app\Http" />

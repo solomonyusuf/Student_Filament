@@ -16,4 +16,9 @@ class Subject extends Model
       'CA',
       'score'
   ];
+
+  public function results()
+  {
+       return $this->belongsTo(Result::class);
+  }
 }
